@@ -28,4 +28,6 @@ class ImageConstant {
   static String imgVectorBlack900 = '$imagePath/img_vector_black_900.svg';
 
   static String imageNotFound = 'assets/images/image_not_found.png';
+
+  static String imageline = '$imagePath/line.png';
 }

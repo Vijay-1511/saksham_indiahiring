@@ -12,13 +12,18 @@ import '../../widgets/custom_search_view.dart';
 import 'widgets/joblisting_item_widget.dart'; // ignore_for_file: must_be_immutable
 
 // ignore_for_file: must_be_immutable
-class AndroidSmallEightScreen extends StatelessWidget {
+class AndroidSmallEightScreen extends StatefulWidget {
 
   AndroidSmallEightScreen({Key? key})
       : super(
           key: key,
         );
 
+  @override
+  State<AndroidSmallEightScreen> createState() => _AndroidSmallEightScreenState();
+}
+
+class _AndroidSmallEightScreenState extends State<AndroidSmallEightScreen> {
   TextEditingController searchController = TextEditingController();
 
   TextEditingController searchController1 = TextEditingController();
@@ -152,8 +157,6 @@ class AndroidSmallEightScreen extends StatelessWidget {
       ],
     );
   }
-
-
 
   /// Section Widget
   // Widget _buildRowUserOne(BuildContext context) {
@@ -459,7 +462,6 @@ class AndroidSmallEightScreen extends StatelessWidget {
     );
   }
 
-
   /// Section Widget
   Widget _buildJobListing(BuildContext context) {
     return Padding(
@@ -480,7 +482,6 @@ class AndroidSmallEightScreen extends StatelessWidget {
       ),
     );
   }
-
 
   /// Navigates back to the previous screen.
   onTapArrowleftone(BuildContext context) {
