@@ -325,7 +325,7 @@ class JoblistingItemWidget extends StatelessWidget {
     required String shift,
     required String jobType,
   }) {
-    return Container(
+    return Container( height: 250,width: 500,
       padding: EdgeInsets.symmetric(
         horizontal: 17.h,
         vertical: 7.v,

@@ -19,6 +19,12 @@ extension on TextStyle {
       fontFamily: 'Asap',
     );
   }
+
+  TextStyle get kottaOne {
+    return copyWith(
+      fontFamily: 'KottaOne-Regular',
+    );
+  }
 }
 
 /// A collection of pre-defined text styles for customizing text appearance,

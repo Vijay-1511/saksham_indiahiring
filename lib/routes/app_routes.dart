@@ -14,6 +14,7 @@ class AppRoutes {
   static const String initialRoute = '/initialRoute';
 
 
+
   static Map<String, WidgetBuilder> routes = {
 
     // androidSmallEightScreen: (context) => AndroidSmallEightScreen(),
@@ -21,5 +22,7 @@ class AppRoutes {
 
     homePage: (context) => HomePage(),
     initialRoute: (context) => HomePage(),
+
+
   };
 }
